@@ -4,10 +4,10 @@ pipeline {
         maven 'Maven3'
     }
     stages {
-        stage('Build') {
+        stage('log version info') {
             steps {
-                dir('Backend') {
-                    sh 'mvn clean install'
+                sh 'mvn --version'
+                sh 'mvn clean install'
                 }
             }
         }
