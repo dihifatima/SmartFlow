@@ -1,7 +1,7 @@
 additionalModelsConverter -> org.springdoc.core.converters.AdditionalModelsConverter
 adminController -> emsi.SmartFlow.controller.facade.AdminController
 adminDashboardController -> emsi.SmartFlow.controller.facade.AdminDashboardController
-adminRepo -> jdk.proxy2.$Proxy213
+adminRepo -> jdk.proxy2.$Proxy213 
 adminServiceImpl -> emsi.SmartFlow.service.impl.AdminServiceImpl
 aiAnalysisController -> emsi.SmartFlow.controller.facade.AiAnalysisController
 aiAnalysisRepository -> jdk.proxy2.$Proxy185
